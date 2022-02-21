@@ -1,0 +1,105 @@
+@import url('https://fonts.google.com/specimen/Inter');
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+
+
+*{
+    margin: 0;
+
+}
+
+body{
+   margin: 0;
+    background-color: hsl(233, 47%, 7%); 
+}
+
+.container{
+    display: flex;
+    max-width: 720px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: hsl(233, 47%, 7%); 
+   
+
+}
+.stats{
+    display: flex;
+     background-color:hsl(244, 38%, 16%);
+
+}
+
+.imagem{
+ width: 100%;
+ background: hsla(277, 60%, 35%, 0.66);
+
+}
+
+.imagem-principal{
+   width: auto;
+opacity: 0.5;
+
+}
+
+.texto{
+    padding: 36px;
+    margin: 2em;
+   
+}
+
+
+.titulo-principal{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.titulo-principal_cor{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    color: hsl(277, 64%, 61%);
+}
+
+
+
+.texto-principal{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 600;
+    margin-top: 26px;
+
+}
+
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+    font-family: 'Inter',sans-serif;
+}
+
+.estatistica{
+    color: white;
+    font-weight: 600;
+    margin: 0 12px;
+}
+
+.texto-estatistica{
+color: hsla(0, 0%, 100%, 0.6);
+font-size: 15px;
+    font-weight: 600;
+    
+}
+
+@media(max-width:1000px){
+    .stats{
+        flex-direction: column-reverse;
+        
+    }
+    .imagem-principal{
+        width: 100%;
+    }
+}
+
