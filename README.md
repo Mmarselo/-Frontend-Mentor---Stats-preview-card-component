@@ -7,6 +7,8 @@
 
 ![desktop-design](https://user-images.githubusercontent.com/97993630/155002402-4f1903a0-98f3-4a41-9b83-b74aaffb0060.jpg)
 
+link: https://frontend-mentor-stats-preview-card-component-phi.vercel.app/
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
